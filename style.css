@@ -1,0 +1,37 @@
+.btn-primary {
+    background-color: #212529; }
+    
+.divdisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  
+  .imagen {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.548);
+    transition: 0.5s;
+    margin: 15px; }
+    .imagen:hover {
+      transform: scale(1.03);
+      transition: 0.5s; }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center; }
+
+.boton {
+    color: black;
+    background-color: white; }
+    .boton:hover {
+      background-color: black;
+      color: white;
+      transform: scale(1.1);
+      transition: 0.9s;
+      border-radius: 20px;
+      font-family: Arial, Helvetica, sans-serif; }
+
+
+
